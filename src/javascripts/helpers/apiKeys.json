@@ -1,0 +1,11 @@
+{
+  "firebaseConfig" : {
+    "apiKey": "AIzaSyAk5uPs2PTWmdPmaDqiJm7sdfqe3MhHR6A",
+    "authDomain": "cedarhill-860a9.firebaseapp.com",
+    "databaseURL": "https://cedarhill-860a9.firebaseio.com",
+    "projectId": "cedarhill-860a9",
+    "storageBucket": "cedarhill-860a9.appspot.com",
+    "messagingSenderId": "664817123517",
+    "appId": "1:664817123517:web:c706f45e207d586a"
+  }
+}
