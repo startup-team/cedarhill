@@ -36,8 +36,8 @@
       <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
       <hr class="border-top border-secondary">
     <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-    <a class="btn btn-dark btn-lg" href="#" role="button">Learn more</a>
-    <a class="btn btn-dark btn-lg" href="#" role="button">Learn more</a>
+    <button class="btn btn-dark btn-lg" href="" role="button"data-toggle="modal" data-target="#exampleModal">Sign In</button>
+    <button id="write" class="btn btn-dark btn-lg" href="" role="button">Write</button>
       </div>
       <div class="w-50"><img src="https://picsum.photos/555/280/?random" class="img-fluid" alt="Responsive image"></div>
       
@@ -105,6 +105,34 @@
        </div>
      </div>
    </div>
+
+
+   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="admin-email" aria-describedby="emailHelp" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="admin-password" placeholder="Password">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button id="sign-in" type="button" class="btn btn-primary">Sign In</button>
+        </div>
+      </div>
+    </div>
+  </div>
   
 <footer class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
   <div class="container d-flex justify-content-end">
