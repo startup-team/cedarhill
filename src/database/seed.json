@@ -1,0 +1,87 @@
+{
+  "images": {
+    "image1": {
+      "url": "https://media.istockphoto.com/photos/happy-family-mother-father-children-son-and-daughter-on-sunset-picture-id996496112"
+    },
+    "image2": {
+      "url": "https://media.istockphoto.com/photos/yay-you-won-that-round-picture-id854450724"
+    },
+    "image3": {
+      "url": "https://media.istockphoto.com/photos/mother-and-daughther-happy-together-picture-id641288086"
+    }
+  },
+  "events": {
+    "event1": {
+      "title": "Pastor Appreciation Month",
+      "description": "October is Pastor appreciation month. Send cards of encouragement and appreciation.",
+      "startdate": "October 1",
+      "enddate": "October 31",
+      "category": "General",
+      "isfeatured": true
+    },
+    "event2": {
+      "title": "Fall Break",
+      "description": "Roberston County on Fall Break",
+      "startdate": "October 14",
+      "enddate": "October 18",
+      "category": "Student",
+      "isfeatured": false
+    },
+    "event3": {
+      "title": "Chili Supper",
+      "description": "Global Hunger Chili Supper hosted by Acteens/GA's",
+      "startdate": "November 3",
+      "enddate": "November 3",
+      "category": "Community",
+      "isfeatured": true
+    }
+  },
+  "ministries": {
+    "ministry1": {
+      "title": "Bus Ministry",
+      "description": "Our Bus ministry team picks up and brings home any children, youth, or adults that wish to come to church to attend services, and children and youth activities. Available every Sunday and Wednesday Night."
+    },
+    "ministry2": {
+      "title": "Bread of Life",
+      "description": "One Sunday a month our ministry prepares meals for needy families, the elderly, or shut-ins. Meals can be eaten at the church in the Family Life Center or can be delivered. Food boxes available by calling the church."
+    },
+    "ministry3": {
+      "title": "Anna's Closet",
+      "description": "Anna's Closet is a clothing closet for all ages! Free, gently used clothes, shoes, blankets, and jackets for those that are in need of items. Always appreciated are Hygiene Items, NEW Athletic Shoes, NEW or gently used Jeans, NEW underwear and NEW socks (all sizes). Seasonal clothing in good, clean condition and preferably on hangers."
+    }
+  },
+  "ministrymeetups": {
+    "ministrymeetup1": {
+      "date": "Sunday",
+      "description": "recurring monthly",
+      "ministryid": "ministry2"
+    },
+    "ministrymeetup2": {
+      "date": "December 31",
+      "description": "not recurring",
+      "ministryid": "ministry4"
+    },
+    "ministrymeetup3": {
+      "date": "Wednesday",
+      "description": "recurring weekly",
+      "ministryid": "n/a"
+    }
+  },
+  "charities": {
+    "charity1": {
+      "title": "Global Hunger Sunday",
+      "description": "global hunger sunday is ...",
+      "image": "https://media.istockphoto.com/photos/volunteer-accepts-canned-food-donation-at-food-drive-picture-id621904294"
+    },
+    "charity2": {
+      "title": "Disaster Relief Tennessee",
+      "description": "disaster relief tennessee is ...",
+      "image": "https://media.istockphoto.com/photos/male-and-female-volunteers-sort-donations-during-food-drive-picture-id862362468"
+    },
+    "charity3": {
+      "title": "Christmas in August",
+      "description": "christmas in august is ...",
+      "image": "https://media.istockphoto.com/photos/confident-volunteers-build-wall-in-charity-home-picture-id520712254"
+    }
+  }
+}
