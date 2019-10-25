@@ -1,11 +1,13 @@
 import React from 'react';
 import './styles/app.scss';
 
+import Home from './components/home';
+
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <div>Hello World</div>
+      <div className="app">
+        <Home />
       </div>
     );
   }

@@ -1,10 +1,12 @@
 import React from 'react';
 
+import HomeHero from './home-hero';
+
 class Home extends React.Component {
   render() {
     return (
-      <div>
-        <div>Home</div>
+      <div className="home">
+        <HomeHero />
       </div>
     );
   }
